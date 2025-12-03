@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home - Instagram Clone</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+
+  <div class="navbar">
+    <h2>MyInstagram</h2>
+    <button onclick="toggleDarkMode()">🌙</button>
+  </div>
+
+  <button class="upload-btn" onclick="fakeUpload()">Upload Photo</button>
+
+  <!-- STORIES -->
+  <div class="stories">
+    <div class="story">
+      <img src="https://via.placeholder.com/60">
+      <p>You</p>
+    </div>
+    <div class="story">
+      <img src="https://via.placeholder.com/60">
+      <p>friend</p>
+    </div>
+  </div>
+
+  <!-- POSTS -->
+  <div class="post">
+    <div class="post-header">
+      <img src="https://via.placeholder.com/40">
+      <span>username</span>
+    </div>
+
+    <img class="post-image" src="https://via.placeholder.com/600x350">
+
+    <div class="post-actions">
+      <span class="like-btn" onclick="toggleLike(this)">♡</span>
+      💬 ➤
+    </div>
+
+    <p><b>username</b> My first photo!</p>
+  </div>
+
+  <div class="post">
+    <div class="post-header">
+      <img src="https://via.placeholder.com/40">
+      <span>friend</span>
+    </div>
+
+    <img class="post-image" src="https://via.placeholder.com/600x350/ffaaaa">
+
+    <div class="post-actions">
+      <span class="like-btn" onclick="toggleLike(this)">♡</span>
+      💬 ➤
+    </div>
+
+    <p><b>friend</b> Nice day today!</p>
+  </div>
+
+</body>
+</html>
